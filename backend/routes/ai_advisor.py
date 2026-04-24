@@ -20,7 +20,7 @@ try:
     import google.generativeai as genai
     
     # Try to get API key from environment or use provided key
-    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or "AIzaSyD7_l4mKtoVWBwLBSVjHcxuPd8HeQFvWBU"
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") 
     if GEMINI_API_KEY:
         genai.configure(api_key=GEMINI_API_KEY)
         GEMINI_AVAILABLE = True
