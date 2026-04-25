@@ -46,7 +46,7 @@ The UHI Maharashtra platform combines geospatial data analysis, machine learning
 ### Frontend Setup
 
 ```bash
-# Clone the repository
+# Clone repository
 git clone <repository-url>
 cd mahar-heat-insight
 
@@ -121,7 +121,7 @@ For complete API documentation, see [Backend README](./backend/README.md)
 │   ├── schemas/           # Data validation
 │   └── utils/             # Helper functions
 ├── public/                # Static assets
-└── supabase/              # Database config
+└── supabase/              # Database configuration
 ```
 
 ---
