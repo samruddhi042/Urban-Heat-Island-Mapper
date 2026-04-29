@@ -53,7 +53,7 @@ cd mahar-heat-insight
 # Install dependencies
 npm install
 
-# Create environment file
+# Create an environment file
 cp .env.example .env
 # Edit .env with your API keys
 
